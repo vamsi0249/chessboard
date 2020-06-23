@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>chess board</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    .black {
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+
+    .white {
+      width: 80px;
+      height: 80px;
+      background-color: white;
+      color: black;
+      text-align: center;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+
+    img:hover {
+      width: 150px;
+      height: 150px;
+    }
+
+    #div1 {
+      height: 660px;
+      width: 350px;
+      color: black;
+      background-color: white;
+      float: left;
+      font-size: 55px;
+      font-family: fantasy;
+      text-align: right;
+      padding-right:20px;
+    }
+
+    #div2 {
+      float: left;
+    }
+
+    #div3 {
+      height: 660px;
+      width: 370px;
+      color: black;
+      background-color: white;
+      float: left;
+      line-height:40px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<br><br>
+  <div id="div1"> C <br>H <br>E <br>S <br>S <br> B <br>O <br>A <br>R <br>D </div>
+  <div id="div2">
+    <table border="1" align="center">
+      <tr>
+        <td class="white"><img src="whiterook.png" alt="" title="Rook"></td>
+        <td class="black"><img src="whitehorse.png" alt="" title="Horse"></td>
+        <td class="white"><img src="whitebishop.png" alt="" title="Bishop"></td>
+        <td class="black"><img src="whitequeen.png" alt="" title="Queen"></td>
+        <td class="white"><img src="whiteking.png" alt="" title="King"></td>
+        <td class="black"><img src="whitebishop.png" alt="" title="Bishop"></td>
+        <td class="white"><img src="whitehorse.png" alt="" title="Horse"></td>
+        <td class="black"><img src="whiterook.png" alt="" title="Rook"></td>
+      </tr>
+      <tr>
+        <td class="black"><img src="whitesoldier.png" alt="" title="knight-8"></td>
+        <td class="white"><img src="whitesoldier.png" alt="" title="knight-7"></td>
+        <td class="black"><img src="whitesoldier.png" alt="" title="knight-6"></td>
+        <td class="white"><img src="whitesoldier.png" alt="" title="knight-5"></td>
+        <td class="black"><img src="whitesoldier.png" alt="" title="knight-4"></td>
+        <td class="white"><img src="whitesoldier.png" alt="" title="knight-3"></td>
+        <td class="black"><img src="whitesoldier.png" alt="" title="knight-2"></td>
+        <td class="white"><img src="whitesoldier.png" alt="" title="knight-1"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white"><img src="blackpawn.png" alt="" title="knight-8"></td>
+        <td class="black"><img src="blackpawn2.png" alt="" title="knight-7"></td>
+        <td class="white"><img src="blackpawn.png" alt="" title="knight-6"></td>
+        <td class="black"><img src="blackpawn2.png" alt="" title="knight-5"></td>
+        <td class="white"><img src="blackpawn.png" alt="" title="knight-4"></td>
+        <td class="black"><img src="blackpawn2.png" alt="" title="knight-3"></td>
+        <td class="white"><img src="blackpawn.png" alt="" title="knight-2"></td>
+        <td class="black"><img src="blackpawn2.png" alt="" title="knight-1"></td>
+      </tr>
+      <tr>
+        <td class="black"><img src="blackrook.png" alt="" title="Rook"></td>
+        <td class="white"><img src="blackhorse.png" alt="" title="Horse"></td>
+        <td class="black"><img src="blackbishop.png" alt="" title="Bishop"></td>
+        <td class="white"><img src="blackqueen.png" alt="" title="Queen"></td>
+        <td class="black"><img src="blackking.png" alt="" title="King"></td>
+        <td class="white"><img src="blackbishop.png" alt="" title="Bishop"></td>
+        <td class="black"><img src="blackhorse.png" alt="" title="Horse"></td>
+        <td class="white"><img src="blackrook.png" alt="" title="Rook"></td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="div3">
+    <br> <br>
+  <br> <br> <br>
+    <ul>
+      <li>King  : One Step in Any Direction</li>
+      <li>Queen : No of Steps in Any Direction</li>
+      <li>Bishop: No of Steps in Cross Direction</li>
+      <li>Horse : It Follows L Shape</li>
+      <li>Rook  : No of Steps in straight Direction</li>
+      <li>Knight: One Step in Forward Direction</li>
+    </ul> </div>
+
+</body>
+
+</html>
